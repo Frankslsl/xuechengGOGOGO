@@ -3,6 +3,7 @@ package com.xuecheng.content.model.po;
 
 import javax.persistence.*;
 import java.time.Instant;
+import java.time.LocalDateTime;
 
 @lombok.Getter
 @lombok.Setter
@@ -64,7 +65,7 @@ public class CourseBase {
     private String pic;
 
     @Column(name = "create_date")
-    private Instant createDate;
+    private LocalDateTime createDate;
 
     @Column(name = "change_date")
     private Instant changeDate;

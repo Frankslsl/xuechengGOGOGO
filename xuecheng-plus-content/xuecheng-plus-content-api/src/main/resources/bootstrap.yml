@@ -2,7 +2,7 @@ server:
   servlet:
     context-path: /content
   port: 63040
-#微服务配置
+
 spring:
   application:
     name: content-api
@@ -11,6 +11,13 @@ spring:
     url: jdbc:mysql://192.168.137.138:3306/xc_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
     username: root
     password: wodediannao
-# 日志文件配置路径
+
 logging:
   config: classpath:log4j2-dev.xml
+
+swagger:
+  title: "xuecheng content api"
+  description: "xuecheng content api"
+  base-package: "com.xuecheng.content"
+  enable: true
+  version: "1.0.0"
