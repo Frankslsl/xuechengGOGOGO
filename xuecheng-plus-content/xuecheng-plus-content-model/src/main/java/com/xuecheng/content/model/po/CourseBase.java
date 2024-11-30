@@ -1,12 +1,13 @@
 package com.xuecheng.content.model.po;
 
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.time.Instant;
 import java.time.LocalDateTime;
 
-@lombok.Getter
-@lombok.Setter
+@Data
 @Entity
 @Table(name = "course_base")
 public class CourseBase {

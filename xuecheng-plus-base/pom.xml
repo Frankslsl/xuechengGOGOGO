@@ -11,6 +11,11 @@
 
 
     <artifactId>xuecheng-plus-base</artifactId>
+    <packaging>jar</packaging>
+    <groupId>com.xuecheng</groupId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>xuecheng-plus-base</name>
+    <description>xuecheng-plus-base</description>
 
     <dependencies>
         <dependency>
@@ -97,6 +102,9 @@
             <groupId>antlr</groupId>
             <artifactId>antlr</artifactId>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-commons</artifactId>
+        </dependency>
     </dependencies>
-
 </project>
